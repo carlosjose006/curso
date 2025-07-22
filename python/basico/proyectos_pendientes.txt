@@ -1,0 +1,98 @@
+
+A continuación tienes 15 prácticas y mini-proyectos pensados para reforzar la parte básica (variables, condicionales, ciclos, funciones, colecciones, manejo de errores y entrada).
+Cada ejercicio incluye:
+Objetivo claro
+Qué conceptos usas
+Duración estimada
+Extensión opcional para ir más allá
+🧪 1. Conversor de divisas
+Objetivo: Pedir monto y moneda, devolver conversión.
+Conceptos: input, float, dict, try/except.
+Duración: 20 min
+Extensión: Leer tipos de cambio desde API externa.
+🧮 2. Calculadora de IMC
+Objetivo: Pedir peso y altura, mostrar índice y categoría.
+Conceptos: float, if/elif, f-strings.
+Duración: 15 min
+Extensión: Guardar historial en CSV.
+🎯 3. Adivina el número
+Objetivo: Elige un número 1-100; el usuario intenta adivinar con pistas.
+Conceptos: random, while, break.
+Duración: 30 min
+Extensión: Contador de intentos y récords.
+📋 4. Lista de tareas por consola
+Objetivo: Menú para agregar, listar y eliminar tareas.
+Conceptos: list, input, funciones, remove.
+Duración: 40 min
+Extensión: Persistir en archivo JSON.
+📊 5. Estadísticas de notas
+Objetivo: Pedir varias notas y mostrar promedio, máxima y mínima.
+Conceptos: for, append, sum, min/max.
+Duración: 25 min
+Extensión: Gráfico con matplotlib.
+💰 6. Control de gastos semanal
+Objetivo: Pedir gastos diarios y mostrar total y promedio.
+Conceptos: dict, for, f-strings.
+Duración: 30 min
+Extensión: Alerta si supera presupuesto.
+🎲 7. Generador de contraseñas
+Objetivo: Pedir longitud y generar contraseña segura.
+Conceptos: random.choice, string, join.
+Duración: 20 min
+Extensión: Guardar en archivo cifrado.
+🧾 8. Factura simple
+Objetivo: Pedir producto, cantidad y precio; calcular subtotal, IVA y total.
+Conceptos: float, round, format.
+Duración: 30 min
+Extensión: Múltiples productos en bucle.
+📅 9. Contador de días entre fechas
+Objetivo: Pedir dos fechas y mostrar diferencia.
+Conceptos: datetime, timedelta.
+Duración: 25 min
+Extensión: Calcular días hábiles.
+🧮 10. Tabla de multiplicar
+Objetivo: Pedir un número y mostrar tabla 1-10.
+Conceptos: for, f-strings.
+Duración: 15 min
+Extensión: Exportar tabla a .txt.
+🔍 11. Buscador de palabras
+Objetivo: Pedir texto y palabra, contar cuántas veces aparece.
+Conceptos: str.count, lower, strip.
+Duración: 20 min
+Extensión: Ignorar acentos con unidecode.
+🧪 12. Conversor de temperaturas
+Objetivo: Menú para Celsius ↔ Fahrenheit ↔ Kelvin.
+Conceptos: while, if/elif, funciones.
+Duración: 30 min
+Extensión: Gráfico interactivo con matplotlib.
+🏦 13. Cajero automático simple
+Objetivo: Ingresar PIN, mostrar saldo, permitir retirar/depositar.
+Conceptos: dict, while True, validaciones.
+Duración: 45 min
+Extensión: Bloqueo tras 3 intentos fallidos.
+🧩 14. Juego “Piedra, papel, tijera”
+Objetivo: Usuario vs. computadora, mejor de 3.
+Conceptos: random.choice, while, contadores.
+Duración: 35 min
+Extensión: Tabla de puntuaciones.
+🧾 15. Agenda telefónica por consola
+Objetivo: CRUD de contactos (nombre, teléfono).
+Conceptos: dict, funciones, try/except.
+Duración: 50 min
+Extensión: Exportar/importar CSV.
+📅 Plan semanal sugerido
+Table
+Copy
+Día	Ejercicio
+Lunes	Conversor de divisas + IMC (rápidos)
+Martes	Adivina el número + Lista de tareas
+Miércoles	Control de gastos + Contraseñas
+Jueves	Factura simple + Tabla de multiplicar
+Viernes	Piedra-papel-tijera + Agenda telefónica
+Fin de semana	Cajero automático (proyecto grande)
+🔁 Regla de oro
+Cada mini-proyecto debe:
+Pedir entrada por consola.
+Validar y manejar errores.
+Mostrar salida clara.
+Tener menú interactivo.
